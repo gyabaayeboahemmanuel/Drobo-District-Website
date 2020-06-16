@@ -1,0 +1,135 @@
+*
+{
+	padding: 0;
+	margin: 0; 
+	font-family: Cooper Blac;
+}
+.menu-bar
+{
+	background-image: linear-gradient(to right, #3300cc, #ffcc00);
+
+}
+.nav-link
+{
+	font-size: 15px;
+	color: #fff ! important;
+	margin: 1px
+}
+.navbar-nav
+{
+	text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+	padding-left: 0;
+	outline: none;
+	border: none;
+}
+.banner
+{
+	height: 30vh;
+	background-image: url("formbackground.jpg");
+	background-size: cover; 
+
+
+   
+}
+.banner h1
+{
+	padding-top: 1px;
+	font-size: 50px;
+	letter-spacing: 6px;
+	font-weight: 700;
+	text-shadow: 0 0 50px rgba(0,0,0,0.5);
+	color: yellow;
+
+}
+.banner h2
+{
+	padding: 0;
+	font-size: 40px;
+	letter-spacing: 9px;
+	font-weight: 800;
+	text-shadow: 0 0 30px rgba(0,0,0,0.5);
+	color: white;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-image: linear-gradient(to right, #3300cc, #ffcc00);
+	margin-top: 0px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 3px dotted #fff;
+	background: transparent;
+	opacity: 50px;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none; 
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+.logo
+{
+ margin: 12px
+}
+.logo h1
+{
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+	font-family: Benny Blanco;
+	background-image: url("download (3).jpg");
+
+}
+.logo h2
+{
+	text-align: center;
+	font-family: arial;
+	color: red;
+	font-size: 30px;
+	background-image: url("download (3).jpg");
+
+}
+.VISION h1
+{
+	text-align: center;
+	font-family: arial;
+	color: red;
+	font-size: 30px;
+	background-image: url("download (3).jpg");
+}
+.VISION h3
+{
+	font-style: italic;
+	color: blue;
+	font-family: Besign; 
+	background-image: url("download (3).jpg");
+}
+.VISION h4
+{
+	margin: 10px
+	background-image: url("download (3).jpg");
+}

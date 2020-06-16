@@ -1,0 +1,70 @@
+body
+{
+background-image: url("formbackground.jpg");
+background-size: cover;
+}
+.wrap
+{
+	width: 500px;
+	margin: auto;
+	background: transparent;
+
+	opacity: 50px;
+	margin-top: 50px;
+	padding: 5px;
+}
+form
+{
+	padding: 20px;
+	font-family: arial;
+	border: 3px dotted white;
+	margin: 10px;
+
+}
+h2
+{
+  text-align: center;
+  background: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+input
+{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: 50px;
+	border: none;
+	text-decoration-color: white;
+}
+input[type=text], input[type=e-mail], input[type=number], input[type=password]
+{
+width: 60%;	
+}
+input[type=submit]
+{
+	width: 95%;
+	background: orange;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold; 
+	color: white;
+
+}
+input[type=submit] :hover
+{
+	background:yellow;
+
+}
+select
+{
+	padding: 10px;
+	width: 100%
+	border-radius: 10px;
+}
+.input .submit
+{
+	text-align: center;
+}
